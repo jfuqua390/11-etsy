@@ -1,13 +1,12 @@
 .sidebar__heading {
-  margin: $gutter 0;
+  margin: $gutter;
 }
 
 .panel-one {
-  width: 80%;
+  width: 100%;
   margin: $gutter 0;
   border: 1px solid $brand-light-gray;
   background: $brand-white;
-
   &__list {
     padding: $gutter;
   }

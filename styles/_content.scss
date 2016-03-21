@@ -3,9 +3,11 @@
 }
 
 .sidebar {
-  width: 30%;
+  margin: $gutter;
+  width: 25%;
 }
 
 .main {
-  width: 70%;
+  margin: $gutter;
+  width: 75%;
 }

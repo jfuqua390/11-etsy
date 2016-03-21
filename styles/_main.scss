@@ -59,12 +59,15 @@
 .main__nav {
   display: flex;
   justify-content: space-between;
+  margin: 0;
   &--left {
     display: flex;
+    margin: $gutter 0 0;
   }
 
   &--right{
     display: flex;
+    margin: $gutter 0 0;
   }
 }
 
