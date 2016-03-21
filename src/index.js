@@ -17,10 +17,16 @@ function createResultShopItem(result) {
   const shopitem = document.createElement(`article`);
   shopitem.classList.add(`shop-item`);
   shopitem.innerHTML =
-  `<img class="shop-item__pic" src="${result.Images[0].url_fullxfull}" alt="${result.title}">
+  `<div class ="shop-item__card">
+  <div class = "shop-item__img">
+  <img class="shop-item__pic" src="${result.Images[0].url_fullxfull}" alt="${result.title}">
+  </div>
+  <div class ="card-content">
   <h3 class="shop-item__title">${result.title}</h3>
   <h4 class="shop-item__shop-name">${result.Shop.shop_name}</h4>
-  <p class="shop-item__price">$${result.price}</p>`;
+  <p class="shop-item__price">$${result.price}</p>
+  </div>
+  </div>`;
 
 
   return shopitem;

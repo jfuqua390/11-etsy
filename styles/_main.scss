@@ -6,10 +6,33 @@
 .shop-item {
   width: 33%;
   margin: 0;
+
+  &__card {
+    width: 100%;
+    background: $brand-white;
+  }
+}
+
+.shop-item__img {
+  width: 100%;
+  height: 15rem;
+  background: green;
 }
 
 .shop-item__pic {
-  width: 10rem;
+  width: 100%;
+  height: 100%;
+}
+
+.shop-item__title {
+  font-size: 1rem;
+  font-weight: normal;
+
+  margin: $gutter 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
 }
 
 .main__nav {
