@@ -4,8 +4,8 @@
 }
 
 .shop-item {
-  width: 33%;
-  margin: 0;
+  width: calc((100%/3) - 1.2rem);
+  margin: $gutter;
 
   &__card {
     width: 100%;
@@ -25,14 +25,35 @@
 }
 
 .shop-item__title {
+  margin: $gutter;
   font-size: 1rem;
   font-weight: normal;
 
-  margin: $gutter 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
 
+
+.card-content__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: $gutter;
+  padding-bottom: $gutter;
+}
+
+.shop-item__shop-name {
+  margin: 0;
+  font-size: 0.85rem;
+  color: $brand-tan;
+  font-weight: normal;
+}
+
+.shop-item__price {
+  margin: 0;
+  color: #73df66;
+  font-weight: normal;
 }
 
 .main__nav {
@@ -44,5 +65,29 @@
 
   &--right{
     display: flex;
+  }
+}
+
+.main__nav--left-item{
+  margin: 0 0.2rem;
+  color: $brand-gray;
+
+  &:first-child{
+    color: $brand-light-blue;
+    cursor: pointer;
+  }
+
+  &:nth-child(3) {
+    font-weight: bold;
+  }
+}
+
+.main__nav--right-item {
+  margin: 0 0.2rem;
+  color: $brand-gray;
+
+  &:nth-child(2) {
+    color: $brand-light-blue;
+    cursor: pointer;
   }
 }
