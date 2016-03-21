@@ -8,16 +8,16 @@
   border: 1px solid $brand-light-gray;
   background: $brand-white;
   &__list {
-    padding: $gutter;
+    padding: 0 $gutter;
   }
 
   &__list-item {
-    padding: 0.3rem 1rem;
+    padding: 0.2rem 1rem;
     color: $brand-light-blue;
     cursor: pointer;
 
     &:first-of-type {
-      padding: 0.3rem 0;
+      padding: 0.1rem 0;
       color: $brand-black;
       font-weight: 600;
       cursor: default;

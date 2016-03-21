@@ -1,0 +1,34 @@
+.email-sub {
+  margin: auto;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: .5rem solid rgba(0, 0, 0, .05);
+}
+
+.email-sub__msg {
+  margin: $gutter;
+  font-size: 1rem;
+}
+
+.email-sub__user-interaction {
+  position: relative;
+  width: 45%;
+  padding: $gutter;
+}
+
+.enter-email {
+  width: 60%;
+}
+
+.subscribe-button {
+  width: 30%;
+  height: 2.2rem;
+  background: $brand-light-blue;
+  color: $brand-white;
+
+  position: absolute;
+  bottom: 17%;
+  right: 7%;
+}
