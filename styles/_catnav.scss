@@ -1,0 +1,20 @@
+.categories {
+  border-bottom: lighten($brand-tan, 10%) solid 0.1rem;
+  border-top: lighten($brand-tan, 10%) solid 0.1rem;
+  background: $brand-white;
+}
+
+.cat-nav {
+  display: flex;
+  color: $brand-gray;
+  text-decoration: none;
+  font-weight: normal;
+
+  &__item {
+    margin: 0 $gutter;
+  }
+
+  &__item-text {
+    margin: 0;
+  }
+}
