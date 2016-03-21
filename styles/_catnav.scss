@@ -12,6 +12,12 @@
 
   &__item {
     margin: 0 $gutter;
+
+
+    & :hover {
+      cursor: pointer;
+
+    }
   }
 
   &__item-text {

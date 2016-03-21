@@ -1,0 +1,25 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  width: 33%;
+  margin: 0;
+}
+
+.shop-item__pic {
+  width: 10rem;
+}
+
+.main__nav {
+  display: flex;
+  justify-content: space-between;
+  &--left {
+    display: flex;
+  }
+
+  &--right{
+    display: flex;
+  }
+}

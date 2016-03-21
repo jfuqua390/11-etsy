@@ -1,0 +1,27 @@
+.sidebar__heading {
+  margin: $gutter 0;
+}
+
+.panel-one {
+  width: 80%;
+  margin: $gutter 0;
+  border: 1px solid $brand-light-gray;
+  background: $brand-white;
+
+  &__list {
+    padding: $gutter;
+  }
+
+  &__list-item {
+    padding: 0.3rem 1rem;
+    color: $brand-light-blue;
+    cursor: pointer;
+
+    &:first-of-type {
+      padding: 0.3rem 0;
+      color: $brand-black;
+      font-weight: 600;
+      cursor: default;
+    }
+  }
+}

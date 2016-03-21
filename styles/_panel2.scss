@@ -1,0 +1,163 @@
+.panel-two {
+  width: 80%;
+  margin: $gutter 0;
+  border: 1px solid $brand-light-gray;
+  background: $brand-white;
+
+  &__item {
+    width: 95%;
+    margin: auto;
+    padding: $gutter;
+    border-bottom: 1px solid $brand-light-gray;
+    font-family: $brand-sans-serif;
+
+    &--header {
+      font-weight: bold;
+    }
+  }
+}
+
+.FOOP {
+  font-weight: bold;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+
+  &-label {
+    font-weight: normal;
+  }
+}
+
+
+//PRICE OPTIONS
+.item__price__low-high {
+  display: flex;
+  align-items: center;
+}
+
+.price-input {
+  width: 35%;
+  height: 2.5rem;
+
+  &:hover {
+    border: 1px solid $brand-black;
+  }
+}
+
+.low-high__item {
+  margin: 0.5rem 0.3rem 0 0;
+  border: 1px solid $brand-light-gray;
+}
+
+.price-text {
+  border: 0;
+}
+
+.price__button {
+  height: 2.5rem;
+  width: 20%;
+
+  &:hover {
+    cursor: pointer;
+    background: $brand-gray;
+  }
+}
+
+
+//FILTER COLORS
+.filter-colors {
+  display: flex;
+
+  &__item {
+    margin: .1rem;
+    width: calc(100%/8);
+    height: 1.8rem;
+    border: 1px solid $brand-tan;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.button {
+  border: 0;
+}
+.button-red {
+  background: #d0080e;
+  }
+
+.button-orange{
+  background: #f1a40e;
+  }
+
+.button-yellow {
+  background: #f5fa0c;
+  }
+
+.button-green{
+  background: #26c437;
+  }
+
+.button-teal {
+  background: #16ecec;
+}
+
+.button-purple {
+  background: #b407e8;
+}
+
+.button-black {
+  background: $brand-black;
+}
+
+.button-white {
+  background: $brand-white;
+}
+
+//Ordering Options
+.ordering-options__list {
+  color: $brand-light-blue;
+  font-weight: normal;
+}
+
+.ordering-options__checkbox {
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+//Shop Location
+.shop-loc__list__item{
+  color: $brand-light-blue;
+  font-weight: normal;
+}
+
+.checkbox__shop-loc {
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.item__ship-select {
+  position: relative;
+}
+
+.shipping-info{
+  -webkit-appearance: none;
+  width: 80%;
+  height: 3rem;
+  margin: $gutter;
+}
+
+.ship-carat {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}

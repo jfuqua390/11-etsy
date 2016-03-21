@@ -76,8 +76,112 @@
       </div>
     </div>
   </div>
+  <div class="content">
+    <div class="container">
+      <div class="content__row">
+        <div class="sidebar">
+          <h5 class="sidebar__heading">Show results for:</h5>
+          <div class="panel-one">
+            <ul class="panel-one__list">
+              <li class="panel-one__list-item">All Categories</li>
+              <li class="panel-one__list-item">Home & Living</li>
+              <li class="panel-one__list-item">Paper & Party Supplies</li>
+            </ul>
+          </div>
+          <h5 class="sidebar__heading">Refine your search</h5>
+          <div class="panel-two">
+            <ul class="panel-two__item item__types FOOP">Item Type
+              <li class="item__types-item">
+	              <input type="radio" value="None" id="roundedOne" name="check" class ="checkbox"/>
+	              <label for="roundedOne" class= "checkbox-label">All items</label>
+              </li>
+              <li class="item__types-item">
+	              <input type="radio" value="None" id="roundedOne" name="check" class ="checkbox"/>
+	              <label for="roundedOne" class= "checkbox-label">Handmade</label>
+              </li>
+              <li class="item__types-item">
+	              <input type="radio" value="None" id="roundedOne" name="check" class ="checkbox"/>
+	              <label for="roundedOne" class= "checkbox-label">Vintage</label>
+              </li>
+            </ul>
+            <div class="panel-two__item item__price FOOP">Price($):
+              <div class="item__price__low-high">
+                <input type="text" placeholder="Low" class = "price-input low-high__item">
+                <p class="low-high__item price-text">to</p>
+                <input type="text" placeholder="High" class = "price-input low-high__item">
+                <button class="low-high__item price__button fa fa-caret-right"></button>
+              </div>
+            </div>
+            <div class="panel-two__item item__filter FOOP">Filter by Color
+              <div class="filter-colors">
+                <button class="filter-colors__item button-red"></button>
+                <button class="filter-colors__item button-orange"></button>
+                <button class="filter-colors__item button-yellow"></button>
+                <button class="filter-colors__item button-green"></button>
+                <button class="filter-colors__item button-teal"></button>
+                <button class="filter-colors__item button-purple"></button>
+                <button class="filter-colors__item button-black"></button>
+                <button class="filter-colors__item button-white"></button>
+              </div>
+            </div>
+            <div class="panel-two__item item__order-options FOOP">Ordering Options
+              <ul class="ordering-options__list">
+                <li class="ordering-options__list-item">
+                  <input type="checkbox" class="ordering-options__checkbox" id="ordering-options__checkbox1">
+                  <label class="ordering-options__checkbox" for="ordering-options__checkbox1">Accepts Etsy gift cards</label>
+                </li>
+                <li class="ordering-options__list-item">
+                  <input type="checkbox" class="ordering-options__checkbox" id="ordering-options__checkbox2">
+                  <label class="ordering-options__checkbox" for="ordering-options__checkbox2">Customizable</label>
+                </li>
+              </ul>
+            </div>
+            <div class="panel-two__item item__shop-loc FOOP">Shop Location
+              <ul class="shop-loc__list">
+                <li class="shop-loc__list__item">
+                  <input type="radio" value="None" id="shoplocbutton" name="check" class ="checkbox__shop-loc"/>
+                  <label for="shoplocbutton" class= "checkbox__shop-loc">Anywhere</label>
+                </li>
+                <li class="shop-loc__list__item">
+                  <input type="radio" value="None" id="shoplocbutton" name="check" class ="checkbox__shop-loc"/>
+                  <label for="shoplocbutton" class= "checkbox__shop-loc">United States</label>
+                </li>
+              </ul>
+            </div>
+            <div class="panel-two__item item__ship FOOP">Ship To
+              <div class="item__ship-select">
+                <span class="fa fa-caret-down ship-carat"></span>
+                <select name="" id="" class="shipping-info">
+                  <option value="United States" selected>United States</option>
+                  <option value="Zimbabwe">Zimbabwe</option>
+                  <option value="MOTHA RUSSIA">MOTHA RUSSIA</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="main__nav">
+            <ul class="main__nav--left">
+              <li class="main__nav--left-item">All Categories</li>
+              <li class="main__nav--left-item fa fa-angle-right"></li>
+              <li class="main__nav--left-item">"Yoshi"</li>
+              <li class="main__nav--left-item">(8 results)</li>
+            </ul>
+            <ul class="main__nav--right">
+              <li class="main__nav--right-item">Sort by:</li>
+              <li class="main__nav--right-item">Relevancy</li>
+              <li class="main__nav--right-item fa fa-caret-down"></li>
+            </ul>
+          </div>
+          <div class="main__row">
+            <div id="products" class="products"></div>
+          </div>
+        </div>
 
-  <div id="products"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="/app.js" charset="utf-8"></script>
 
