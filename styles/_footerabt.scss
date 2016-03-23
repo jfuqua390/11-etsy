@@ -1,0 +1,35 @@
+.footer-about {
+  width: 70rem;
+  margin: auto;
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.footer-about__nav-item {
+  font-family: $brand-serif;
+  margin: $gutter;
+
+  &__text {
+    color: $brand-tan;
+    font-weight: normal;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $brand-gray;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &:first-child {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,10 +1,10 @@
 .email-sub {
-  margin: auto;
-  width: 70rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: .5rem solid rgba(0, 0, 0, .05);
+  width: 70rem;
+  margin: 2rem auto 0;
+  border: 0.5rem solid rgba(0, 0, 0, .05);
 }
 
 .email-sub__msg {
@@ -23,12 +23,14 @@
 }
 
 .subscribe-button {
+  position: absolute;
+  right: 7%;
+  bottom: 17%;
   width: 30%;
   height: 2.2rem;
+  border: 0;
+  border-radius: 5px;
   background: $brand-light-blue;
   color: $brand-white;
-
-  position: absolute;
-  bottom: 17%;
-  right: 7%;
+  cursor: pointer;
 }
