@@ -50,8 +50,10 @@
 
 .footer-links__column-list {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-links__column-item {
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
 }
