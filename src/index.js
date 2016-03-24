@@ -88,12 +88,14 @@ function start() {
   button.addEventListener(`click`, () => {
     const input = document.querySelector(`.input-addon__input`).value;
     const inputResult = document.querySelector(`.input__result`);
-    inputResult.innerText = `"${input}"`;
+    const inputLength = document.querySelector(`.input__length`);
+    inputResult.innerText = ``;
+    inputLength.innerHTML = `<span class = "fa fa-circle-o-notch fa-spin"></span>`;
 
     return searchEtsy(input).then(() => {
-      const inputLength = document.querySelector(`.input__length`);
-      const totalproducts = document.querySelectorAll(`.shop-item`).length;
 
+      const totalproducts = document.querySelectorAll(`.shop-item`).length;
+      inputResult.innerText = `"${input}"`;
       inputLength.innerText = `(${totalproducts} Results)`;
     });
   });
